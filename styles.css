@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(to right, black, #001f3f); /* Gradient from black to dark blue */
+  color: purple;
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-right: 150px;
+  padding-left: 3em;
+}
+h2 {
+  font-size: 2rem; /* Adjust font size as desired */
+  color: purple; /* Keep it consistent with your design */
+  margin-top: 10px; /* Optional: add spacing above the overview */ 
+}
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Make the image circular */
+}
+
+.section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100px;
+  background: linear-gradient(to right, black, #001f3f); /* Gradient from black to dark blue */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align buttons to the left */
+  justify-content: center;
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+.nav-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make buttons take full width of the section */
+  text-align: center; /* Center text within the button */
+  margin-bottom: 10px; /* Add some space between buttons */
+}
+
+.nav-button:hover {
+  background-color: #333;
+}
+
+.nav-button.active {
+  background-color: rgb(200, 212, 33);
+  color: white;
+}
+/* styles.css */
+
+/* Resetting the default styles for links */
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent */
+}
+
+/* Styling your navigation buttons */
+.nav-button {
+  /* Add your button styling here */
+}
+
+/* Styling the active navigation button */
+.nav-button.active a {
+  color: /* your desired color for the active link */;
+}
+.cta-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sub-text {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.download-cv-btn {
+  background-color: #6a0dad;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.download-cv-btn:hover {
+  background-color: #4b0769;
+}
+
+.btn-text {
+  margin-right: 10px;
+}
+
+.btn-icon {
+  font-size: 20px;
+}
+
+.profile-picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.profile-picture:hover {
+  transform: scale(1.2); /* Scale up the image by 20% on hover */
+}

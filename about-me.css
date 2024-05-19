@@ -1,0 +1,31 @@
+/* aboutme.css */
+.about-me-content {
+  text-align: center;  
+  margin: 50px auto; /* Centers the content horizontally */
+  max-width: 700px;  /* Control width for readability */
+  padding: 20px;     /* Adds padding around the content */
+  line-height: 1.6;  /* Add spacing between lines of text */ 
+}
+
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px; /* Space between icons */
+  color: purple; /* Keep it consistent with your design */
+  font-size: 25px; 
+  transition: color 0.3s ease; 
+}
+
+.social-icon:hover {
+  color: #333; /* Change color on hover */
+}
+
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,98 @@
+/* styles.css */
+
+
+
+.work-link {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+  color: #6a0dad; /* Purple text color */
+}
+
+.work-link img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.work-link p {
+  font-size: 16px;
+}
+
+/* Add hover effect for the work links */
+.work-link:hover {
+  background-color: #6a0dad; /* Purple background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Add styles for social icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #6a0dad; /* Purple icon color */
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+.portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.work-link {
+  text-align: center;
+  text-decoration: none;
+  color: #6a0dad; /* Purple text color */
+  margin: 10px;
+  flex: 0 1 48%; /* Adjust the width as needed */
+}
+
+.work-link img {
+  width: 100%;
+  max-width: 200px; /* Adjust the max-width as needed */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.work-link p {
+  font-size: 16px;
+}
+
+/* Add hover effect for the work links */
+.work-link:hover {
+  background-color: #6a0dad; /* Purple background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Larger styling for the CV link */
+.cv-link {
+  text-align: center;
+  text-decoration: none;
+  color: #6a0dad; /* Purple text color */
+  margin: 10px;
+  flex: 0 1 100%; /* Full width */
+}
+
+.cv-link img {
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width as needed */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.cv-link p {
+  font-size: 18px;
+}
